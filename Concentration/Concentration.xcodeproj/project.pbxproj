@@ -12,6 +12,8 @@
 		C5DB069E1FDA7F2100607608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DB069C1FDA7F2100607608 /* Main.storyboard */; };
 		C5DB06A01FDA7F2100607608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DB069F1FDA7F2100607608 /* Assets.xcassets */; };
 		C5DB06A31FDA7F2100607608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DB06A11FDA7F2100607608 /* LaunchScreen.storyboard */; };
+		C5DB06AC1FDAD69400607608 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB06AB1FDAD69400607608 /* Concentration.swift */; };
+		C5DB06AE1FDAD7C400607608 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB06AD1FDAD7C400607608 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C5DB069F1FDA7F2100607608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5DB06A21FDA7F2100607608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5DB06A41FDA7F2100607608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB06AB1FDAD69400607608 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		C5DB06AD1FDAD7C400607608 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C5DB06971FDA7F2100607608 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				C5DB06AB1FDAD69400607608 /* Concentration.swift */,
+				C5DB06AD1FDAD7C400607608 /* Card.swift */,
 				C5DB069A1FDA7F2100607608 /* ViewController.swift */,
 				C5DB069C1FDA7F2100607608 /* Main.storyboard */,
 				C5DB06AA1FDA813E00607608 /* supporting files */,
@@ -146,6 +152,8 @@
 			files = (
 				C5DB069B1FDA7F2100607608 /* ViewController.swift in Sources */,
 				C5DB06991FDA7F2100607608 /* AppDelegate.swift in Sources */,
+				C5DB06AC1FDAD69400607608 /* Concentration.swift in Sources */,
+				C5DB06AE1FDAD7C400607608 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
